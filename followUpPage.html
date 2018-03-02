@@ -37,84 +37,95 @@
 
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-day-1" role="tabpanel" aria-labelledby="pills-day-1-tab">
-        <h4>Recipient</h4>
       </div>
       <div class="tab-pane fade" id="pills-day-2" role="tabpanel" aria-labelledby="pills-day-2-tab">
-        <h4>Recipient</h4>
       </div>
       <div class="tab-pane fade" id="pills-day-3" role="tabpanel" aria-labelledby="pills-day-3-tab">
-        <h4>Recipient</h4>
       </div>
       <div class="tab-pane fade" id="pills-day-4" role="tabpanel" aria-labelledby="pills-day-4-tab">
-        <h4>Recipient</h4>
       </div>
       <div class="tab-pane fade" id="pills-day-5" role="tabpanel" aria-labelledby="pills-day-5-tab">
-        <h4>Recipient</h4>
       </div>
     </div>
 
     <form id="followUpForm" action="Index.html" method="post">
-      <form id="recipientForm">
-        <form id="recipientPainForm">
-          <p>Pain:</p>
-          <input type="radio" name="recipientPain" value="none"> None
-          <br>
-          <input type="radio" name="recipientPain" value="moderate"> Moderate
-          <br>
-          <input type="radio" name="recipientPain" value="severe"> Severe
-        </form>
-        <br>
-        <form id="recipientBleedForm">
-          <p>Bleeding:</p>
-          <input type="radio" name="recipientBleed" value="Yes"> Yes
-          <br>
-          <input type="radio" name="recipientBleed" value="No"> No
-        </form>
-        <br>
-        <form id="recipientScabForm">
-          <p>Scab Formation:</p>
-          <input type="radio" name="recipientScab" value="Yes"> Yes
-          <br>
-          <input type="radio" name="recipientScab" value="No"> No
-        </form>
-        <br>
-        <form id="recipientMedicationForm">
-          <p>Medication:</p>
-          <input type="checkbox" name="recipientMedication" value="Tylenol"> Tylenol
-          <br>
-          <input type="checkbox" name="recipientMedication" value="Oxycodin"> Oxycodin
-          <br>
-          <input type="checkbox" name="recipientMedication" value="Advil"> Advil
-        </form>
-      </form>
-
-      <br>
-
-      <form id="donorForm">
-        <h4>Patient</h4>
-        <form id="donorPainForm">
-          <p>Pain:</p>
-          <input type="radio" name="donorPain" value="none" checked> None
-          <br>
-          <input type="radio" name="donorPain" value="moderate"> Moderate
-          <br>
-          <input type="radio" name="donorPain" value="severe"> Severe
-        </form>
-        <br>
-        <form id="donorBruiseForm">
-          <p>Bruising:</p>
-          <input type="radio" name="donorBruise" value="minor"> Minor
-          <br>
-          <input type="radio" name="donorBruise" value="major"> Major
-        </form>
-        <br>
-        <form id="donorBleedForm">
-          <p>Bleeding:</p>
-          <input type="radio" name="donorBleed" value="Yes"> Yes
-          <br>
-          <input type="radio" name="donorBleed" value="No"> No
-        </form>
-      </form>
+      <div class="container">
+        <div class="row">
+          <div class="col-6" id="recipientCol">
+            <form id="recipientForm">
+              <h4>Recipient</h4>
+              <form id="recipientPainForm">
+                <p>Pain:</p>
+                <input type="radio" name="recipientPain" value="none"> None
+                <br>
+                <input type="radio" name="recipientPain" value="moderate"> Moderate
+                <br>
+                <input type="radio" name="recipientPain" value="severe"> Severe
+              </form>
+              <br>
+              <br>
+              <form id="recipientBleedForm">
+                <p>Bleeding:</p>
+                <input type="radio" name="recipientBleed" value="Yes"> Yes
+                <br>
+                <input type="radio" name="recipientBleed" value="No"> No
+              </form>
+              <br>
+              <form id="recipientScabForm">
+                <p>Scab Formation:</p>
+                <input type="radio" name="recipientScab" value="Yes"> Yes
+                <br>
+                <input type="radio" name="recipientScab" value="No"> No
+              </form>
+              <br>
+              <form id="recipientMedicationForm">
+                <p>Medication:</p>
+                <input type="checkbox" name="recipientMedication" value="Tylenol"> Tylenol
+                <br>
+                <input type="checkbox" name="recipientMedication" value="Oxycodin"> Oxycodin
+                <br>
+                <input type="checkbox" name="recipientMedication" value="Advil"> Advil
+              </form>
+            </form>
+          </div>
+          <div class="col-6" id="patientCol">
+            <form id="donorForm">
+              <h4>Patient</h4>
+              <form id="donorPainForm">
+                <p>Pain:</p>
+                <input type="radio" name="donorPain" value="none"> None
+                <br>
+                <input type="radio" name="donorPain" value="moderate"> Moderate
+                <br>
+                <input type="radio" name="donorPain" value="severe"> Severe
+              </form>
+              <br>
+              <form id="donorBruiseForm">
+                <p>Bruising:</p>
+                <input type="radio" name="donorBruise" value="minor"> Minor
+                <br>
+                <input type="radio" name="donorBruise" value="major"> Major
+              </form>
+              <br>
+              <form id="donorBleedForm">
+                <p>Bleeding:</p>
+                <input type="radio" name="donorBleed" value="Yes"> Yes
+                <br>
+                <input type="radio" name="donorBleed" value="No"> No
+              </form>
+              <br>
+              <form id="donorMedicationForm">
+                <p>Medication:</p>
+                <input type="checkbox" name="donorMedication" value="Tylenol"> Tylenol
+                <br>
+                <input type="checkbox" name="donorMedication" value="Oxycodin"> Oxycodin
+                <br>
+                <input type="checkbox" name="donorMedication" value="Advil"> Advil
+              </form>
+            </form>
+          </div>
+        </div>
+      </div>
       <br>
       <input type="submit" name="Save" value="Save" class="btn btn-primary">
     </form>
