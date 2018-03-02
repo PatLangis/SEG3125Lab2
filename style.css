@@ -3,7 +3,7 @@ h2 {
   margin-top: 1%;
 }
 
-#grad {
+body {
   background: linear-gradient(to right, rgb(73, 242, 217) , rgb(55, 133, 195));
 }
 
