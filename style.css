@@ -1,0 +1,21 @@
+h2 {
+  text-align: center;
+  margin-top: 1%;
+}
+
+#grad {
+  background: linear-gradient(to right, rgb(73, 242, 217) , rgb(55, 133, 195));
+}
+
+.buttons {
+  margin-top: 3%;
+  text-align: center;
+}
+
+a {
+  color: rgb(84, 80, 85);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
