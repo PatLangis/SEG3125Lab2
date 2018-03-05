@@ -20,6 +20,38 @@ a:hover {
   color: rgb(0, 0, 0);
 }
 
-#addPatientForm {
+.addPatientForm {
+  margin: 2% 2% 2% 2%;
+}
+
+.form-group.required {
+  content: '*';
+  color: red;
+}
+
+.searchBar
+ {
+   margin: 2% 2% 2% 2%;
+ }
+
+ #search {
+   width: 50%;
+ }
+
+ .thumbnail {
+   margin: 4% 4% 4% 4%;
+   border: solid rgb(84, 80, 85) 1px;
+   border-radius: 10px;
+ }
+
+ .caption {
+   margin: 2% 2% 2% 2%;
+ }
+
+#cancelButton {
+  float: right;
+}
+
+#saveButton {
   margin: 2% 2% 2% 2%;
 }
